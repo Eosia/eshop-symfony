@@ -2,10 +2,12 @@
 
 namespace App\EventSubscriber;
 
-use EasyCorp\Bundle\EasyAdminBundle\Event\BeforeEntityPersistedEvent;
-use EasyCorp\Bundle\EasyAdminBundle\Event\BeforeEntityUpdatedEvent;
-use Symfony\Component\EventDispatcher\EventSubscriberInterface;
+
+use App\Entity\Product;
 use Symfony\Component\HttpKernel\KernelInterface;
+use Symfony\Component\EventDispatcher\EventSubscriberInterface;
+use EasyCorp\Bundle\EasyAdminBundle\Event\BeforeEntityUpdatedEvent;
+use EasyCorp\Bundle\EasyAdminBundle\Event\BeforeEntityPersistedEvent;
 
 class EasyAdminSubscriber implements EventSubscriberInterface
 {
@@ -29,9 +31,7 @@ class EasyAdminSubscriber implements EventSubscriberInterface
         $entity = $event->getEntityInstance();
 
         $tmp_name = $_FILES['Product']['tmp_name']['illustration'];
-        
         $filename = uniqid();
-        
         $extension = pathinfo($_FILES['Product']['name']['illustration'], PATHINFO_EXTENSION);
 
         $project_dir = $this->appKernel->getProjectDir();
@@ -40,9 +40,6 @@ class EasyAdminSubscriber implements EventSubscriberInterface
 
         $entity->setIllustration($filename.'.'.$extension);
     }
-
-
-
 
     public function updateIllustration(BeforeEntityUpdatedEvent $event)
     {
@@ -55,14 +52,12 @@ class EasyAdminSubscriber implements EventSubscriberInterface
         }
     }
 
-
-
     public function setIllustration(BeforeEntityPersistedEvent $event)
     {
         if (!($event->getEntityInstance() instanceof Product)) {
             return;
         }
-        
+
         $this->uploadIllustration($event);
     }
 }
