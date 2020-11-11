@@ -17,6 +17,8 @@ class ProductController extends AbstractController
         $this->entityManager = $entityManager;
     }
     
+    // route nos produits
+    
     /**
      * @Route("/nos-produits", name="products")
      */
@@ -25,10 +27,29 @@ class ProductController extends AbstractController
         
         $products = $this->entityManager->getRepository(Product::class)->findAll();
         
-        dd($products);
+        return $this->render('product/index.html.twig', [
+            'products' => $products
+        ]);
+    }
+    
+    // route vers le produit
+    
+        /**
+     * @Route("/produit/{slug}", name="product")
+     */
+    public function show($slug): Response
+    {
+        
+        $product = $this->entityManager->getRepository(Product::class)->findOneBySlug($slug);
+        
+        if(!$product) {
+            return $this->redirectToRoute('products');
+        }
         
         return $this->render('product/index.html.twig', [
             'products' => $products
         ]);
     }
+    
+    
 }
