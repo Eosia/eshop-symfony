@@ -23,8 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d365038d-f43e-4d60-8f7b-700f17d53917" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Classe/Cart.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +156,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kHPaSOffyKL8lkcOmmI4GKYk5h" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -183,7 +188,9 @@
       <updated>1605354611451</updated>
       <workItem from="1605354617364" duration="526000" />
       <workItem from="1605355161290" duration="1251000" />
-      <workItem from="1605356875572" duration="11366000" />
+      <workItem from="1605356875572" duration="11483000" />
+      <workItem from="1605437259519" duration="15000" />
+      <workItem from="1605437560975" duration="10723000" />
     </task>
     <servers />
   </component>
@@ -200,6 +207,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="175" key="#CLI_Interpreters" timestamp="1605354720596">
@@ -210,9 +218,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="163" key="#PHP/0.0.1920.1040/1920.0.1920.1040/-1680.26.1680.1010/-3360.29.1680.1010@0.0.1920.1040" timestamp="1605354723019" />
-    <state x="670" y="157" key="SettingsEditor" timestamp="1605368726557">
+    <state x="670" y="157" key="SettingsEditor" timestamp="1605455631709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="670" y="157" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/-1680.26.1680.1010/-2730.-284.1050.1640@0.0.1920.1040" timestamp="1605455631709" />
     <state x="670" y="157" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/-1680.26.1680.1010/-3360.29.1680.1010@0.0.1920.1040" timestamp="1605368726557" />
   </component>
 </project>
