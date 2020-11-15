@@ -24,11 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d365038d-f43e-4d60-8f7b-700f17d53917" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/boutiquefrancaise.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/boutiquefrancaise.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Classe/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classe/Cart.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CartController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/cart/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cart/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +194,7 @@
       <workItem from="1605355161290" duration="1251000" />
       <workItem from="1605356875572" duration="11483000" />
       <workItem from="1605437259519" duration="15000" />
-      <workItem from="1605437560975" duration="22441000" />
+      <workItem from="1605437560975" duration="23842000" />
     </task>
     <servers />
   </component>
@@ -225,6 +222,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="163" key="#PHP/0.0.1920.1040/1920.0.1920.1040/-1680.26.1680.1010/-3360.29.1680.1010@0.0.1920.1040" timestamp="1605354723019" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605475817432">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1920.1040/-1680.26.1680.1010/-2730.-284.1050.1640@0.0.1920.1040" timestamp="1605475817432" />
     <state x="670" y="157" key="SettingsEditor" timestamp="1605461665145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
