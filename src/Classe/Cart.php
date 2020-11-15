@@ -20,10 +20,8 @@ class Cart
 
         if (!empty($cart[$id])) {
             $cart[$id]++;
-        }
-        else
-        {
-            $card[$id] = 1;
+        } else {
+            $cart[$id] = 1;
         }
 
         $this->session->set('cart', $cart);
