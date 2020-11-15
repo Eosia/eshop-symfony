@@ -24,7 +24,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d365038d-f43e-4d60-8f7b-700f17d53917" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/boutiquefrancaise.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/boutiquefrancaise.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Classe/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classe/Cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CartController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cart/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cart/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,6 +180,11 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="A:\wamp\www\eshop\public\assets\img" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -188,7 +197,7 @@
       <workItem from="1605355161290" duration="1251000" />
       <workItem from="1605356875572" duration="11483000" />
       <workItem from="1605437259519" duration="15000" />
-      <workItem from="1605437560975" duration="11189000" />
+      <workItem from="1605437560975" duration="22441000" />
     </task>
     <servers />
   </component>
@@ -216,10 +225,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="163" key="#PHP/0.0.1920.1040/1920.0.1920.1040/-1680.26.1680.1010/-3360.29.1680.1010@0.0.1920.1040" timestamp="1605354723019" />
-    <state x="670" y="157" key="SettingsEditor" timestamp="1605455631709">
+    <state x="670" y="157" key="SettingsEditor" timestamp="1605461665145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="670" y="157" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/-1680.26.1680.1010/-2730.-284.1050.1640@0.0.1920.1040" timestamp="1605455631709" />
+    <state x="670" y="157" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/-1680.26.1680.1010/-2730.-284.1050.1640@0.0.1920.1040" timestamp="1605461665145" />
     <state x="670" y="157" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/-1680.26.1680.1010/-3360.29.1680.1010@0.0.1920.1040" timestamp="1605368726557" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1605474814472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040/-1680.26.1680.1010/-2730.-284.1050.1640@0.0.1920.1040" timestamp="1605474814472" />
   </component>
 </project>

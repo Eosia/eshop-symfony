@@ -44,3 +44,8 @@ body {
     font-width: bold;
     font-size: 19px;
 }
+
+.cart-icon {
+    height: 20px;
+    padding-left: 20px;
+}
