@@ -23,8 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d365038d-f43e-4d60-8f7b-700f17d53917" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/account/address.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/account/address_form.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classe/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classe/Cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,6 +166,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -193,7 +197,9 @@
       <workItem from="1605355161290" duration="1251000" />
       <workItem from="1605356875572" duration="11483000" />
       <workItem from="1605437259519" duration="15000" />
-      <workItem from="1605437560975" duration="24391000" />
+      <workItem from="1605437560975" duration="24430000" />
+      <workItem from="1605514140581" duration="3000" />
+      <workItem from="1605527137343" duration="12788000" />
     </task>
     <servers />
   </component>
@@ -221,6 +227,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="163" key="#PHP/0.0.1920.1040/1920.0.1920.1040/-1680.26.1680.1010/-3360.29.1680.1010@0.0.1920.1040" timestamp="1605354723019" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605528989719">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040/-1680.26.1680.1010/-2730.-284.1050.1640@0.0.1920.1040" timestamp="1605528989719" />
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605475817432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -234,5 +244,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040/-1680.26.1680.1010/-2730.-284.1050.1640@0.0.1920.1040" timestamp="1605474814472" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1605538401844">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040/-1680.26.1680.1010/-2730.-284.1050.1640@0.0.1920.1040" timestamp="1605538401844" />
   </component>
 </project>
